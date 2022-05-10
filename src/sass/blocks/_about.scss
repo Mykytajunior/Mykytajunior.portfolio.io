@@ -3,7 +3,7 @@
    &__wrapper {
       display: grid;
       grid-template-columns: 400px 670px;
-      grid-template-rows: minmax(245px, auto) minmax(255px, auto);
+      grid-template-rows: minmax(245px, auto) minmax(0, auto);
       grid-auto-rows: minmax(245px, auto);
       column-gap: 70px;
       row-gap: 40px;
@@ -16,7 +16,7 @@
    }
    &__descr {
       .divider {
-         margin-top: 0;
+         margin: 0;
       }
    }
    &__title {

@@ -15,3 +15,13 @@ closeElemSecond.addEventListener('click', () => {
    menu.classList.remove('active');
 });
 
+const counters = document.querySelectorAll('.skills__ratings-counter'),
+   lines = document.querySelectorAll('.skills__ratings-line span');
+
+// console.log(counters);
+counters.forEach((item, i) => {
+   lines[i].style.width = item.innerHTML;
+   console.log(item.innerHTML);
+   console.log(item);
+   console.log(i);
+});
