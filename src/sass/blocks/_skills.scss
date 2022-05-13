@@ -4,7 +4,7 @@
    &__grid {
       display: grid;
       grid-template: repeat(2, minmax(270px, auto)) / repeat(4, minmax(270px, auto));
-      grid-auto-flow: row;
+      grid-auto-rows: auto;
       gap: 17px;
       margin-top: 60px;
    }
